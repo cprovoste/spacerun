@@ -11,7 +11,8 @@ public class Main
     {
         if( ImageManager.register("player.png") && ImageManager.register("darkPurple.png") &&
                ImageManager.register("meteorBrown_big3.png")  && ImageManager.register("meteorBrown_med1.png") &&
-                  ImageManager.register("meteorBrown_tiny1.png") && ImageManager.register("stars.png"))
+                  ImageManager.register("meteorBrown_tiny1.png") && ImageManager.register("stars.png") && ImageManager.register("playerLife3_green.png")
+                && ImageManager.register("shield_gold.png") && ImageManager.register("shield3.png"))
         {
             System.out.println("Carga correcta");
         }
@@ -34,6 +35,12 @@ public class Main
             System.out.println("OK meteorBrown_tiny1.png");
             BufferedImage starsMenu = ImageManager.get("stars.png");
             System.out.println("OK STARS MENU");
+            BufferedImage lifeIcon = ImageManager.get("playerLife3_green.png");
+            System.out.println("OK lifeicon");
+            BufferedImage shieldicon = ImageManager.get("shield_gold.png");
+            System.out.println("OK Shieldicon");
+            BufferedImage shield = ImageManager.get("shield3.png");
+            System.out.println("OK shield");
             
             
         } 
@@ -41,8 +48,7 @@ public class Main
         {
             System.out.println("No existe el recurso");
         }
-        
-        
+
         MyGame game = new MyGame(true);
         game.run();
     } 

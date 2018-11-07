@@ -6,34 +6,17 @@
 package testing;
 
 import cl.utalca.idvrv.pv2d.engine.BoundingBox;
-import java.util.Random;
 
 /**
  *
  * @author Claudia
  */
-public class Obstacle extends BoundingBox{
-
-    String filename;
-    Random ran = new Random();
-    float speed;
-    public Obstacle(double x, double y, double width, double height, String filename) {
+public class Life extends BoundingBox{
+    
+    public Life(double x, double y, double width, double height) {
         super(x, y, width, height);
-        this.x = ran.nextInt(300);
-        this.y = ran.nextInt(5000)+100;
-        this.filename = filename;
-        speed = ran.nextFloat();
     }
 
-    public String getFilename(){
-        
-        return this.filename;
-    }
-    
-    public void setFilename(String filename){
-        this.filename = filename;
-    }
-    
     @Override
     public String toString() {
         return super.toString(); //To change body of generated methods, choose Tools | Templates.
@@ -61,7 +44,7 @@ public class Obstacle extends BoundingBox{
 
     @Override
     public void setY(double y) {
-        this.y = y;
+        super.setY(y); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
@@ -71,21 +54,15 @@ public class Obstacle extends BoundingBox{
 
     @Override
     public void setX(double x) {
-       this.x=x;
+        super.setX(x); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
     public double getX() {
-        
         return super.getX(); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public float getSpeed() {
-        return speed;
-    }
 
-    public void setSpeed(float speed) {
-        this.speed = speed;
-    }
+    
     
 }

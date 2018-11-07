@@ -134,7 +134,9 @@ public abstract class GameEngine implements KeyEventDispatcher
             Graphics2D g = this.getGraphics();
             g.setColor(Color.white);
             g.drawString(String.format("%.2f", this.avgFPS), 50, 50);
+            
         }
+        
                     
         this.window.switchGraphics();
     }
