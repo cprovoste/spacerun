@@ -1,0 +1,357 @@
+SCP Driver Installer 1.2.0.160 [18-10-2018 14:52:31]
+
+Detected - Microsoft Windows 10 Pro (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - RETURN: DriverPackageInstallW  (0x103)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\Ds3WinUsb.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "USB\VID_054C&PID_0268&REV_0100" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\Ds3WinUsb.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+
+Install Succeeded.
+
+-- Install Summary --
+DS3 USB Driver
+
+
+
+SCP Driver Installer 1.2.0.160 [18-10-2018 14:53:08]
+
+Detected - Microsoft Windows 10 Pro (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+INFO    - ENTER:  DriverPackageUninstallW
+INFO    - No driver store entry for 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\BthWinUsb.inf' found.
+INFO    - RETURN: DriverPackageUninstallW  (0xE0000302)
+INFO    - ENTER:  DriverPackageUninstallW
+INFO    - Uninstalling driver package C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\Ds3WinUsb.inf...
+INFO    - Successfully uninstalled 'C:\WINDOWS\INF\oem11.inf'.
+SUCCESS - Device with device instance ID 'USB\VID_054C&PID_0268\5&2E05D5BD&0&3' reinstalled.
+INFO    - Successfully uninstalled 1 devices for C:\WINDOWS\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\ds3winusb.inf.
+INFO    - Successfully deleted properties for driver store entry 'C:\WINDOWS\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\ds3winusb.inf'.
+SUCCESS - Uninstall completed.
+INFO    - RETURN: DriverPackageUninstallW  (0x0)
+SUCCESS - Virtual Bus Removed
+INFO    - ENTER:  DriverPackageUninstallW
+INFO    - Uninstalling driver package C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\ScpVBus.inf...
+INFO    - Successfully uninstalled 'C:\WINDOWS\INF\oem2.inf'.
+INFO    - No devices found for C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf uninstall.
+INFO    - Successfully deleted properties for driver store entry 'C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf'.
+SUCCESS - Uninstall completed.
+INFO    - RETURN: DriverPackageUninstallW  (0x0)
+
+Uninstall Succeeded.
+
+-- Uninstall Summary --
+SCP DS3 Service
+Bus Device
+DS3 USB Driver
+
+SUCCESS - Virtual Bus Created
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\ScpVBus.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\Ds3WinUsb.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "USB\VID_054C&PID_0268&REV_0100" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\Ds3WinUsb.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - SCP DS3 Service Started.
+
+Install Succeeded.
+
+-- Install Summary --
+SCP DS3 Service
+Bus Device
+Bus Driver
+DS3 USB Driver
+
+
+
+SCP Driver Installer 1.2.0.160 [20-10-2018 13:21:46]
+
+Detected - Microsoft Windows 10 Pro N (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+SUCCESS - Virtual Bus Created
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\Windows\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\ScpVBus.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\Ds3WinUsb.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "USB\VID_054C&PID_0268&REV_0100" using INF "C:\Windows\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\Ds3WinUsb.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - SCP DS3 Service Started.
+
+Install Succeeded.
+
+-- Install Summary --
+SCP DS3 Service
+Bus Device
+Bus Driver
+DS3 USB Driver
+
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\Windows\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\System\Ds3WinUsb.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "USB\VID_054C&PID_0268&REV_0100" using INF "C:\Windows\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\ds3winusb.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+INFO    - Phantom Device with Hardware/Compatible Id 'USB\VID_054C&PID_0268&REV_0100' already has 'C:\Windows\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\ds3winusb.inf' installed on it.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+
+Install Succeeded. [Reboot Required]
+
+-- Install Summary --
+Bus Driver
+DS3 USB Driver
+
+
+
+SCP Driver Installer 1.2.0.160 [23-10-2018 11:15:47]
+
+Detected - Microsoft Windows 10 Pro N (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+
+SCP Driver Installer 1.2.0.160 [26-10-2018 16:21:40]
+
+Detected - Microsoft Windows 10 Home Single Language (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\System\Ds3WinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+
+Install Succeeded. [Reboot Required]
+
+-- Install Summary --
+Bus Driver
+
+
+
+SCP Driver Installer 1.2.0.160 [26-10-2018 18:10:12]
+
+Detected - Microsoft Windows 10 Home Single Language (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+
+Install Succeeded.
+
+-- Install Summary --
+Bus Driver
+
+
+
+SCP Driver Installer 1.2.0.160 [26-10-2018 18:13:52]
+
+Detected - Microsoft Windows 10 Home Single Language (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+
+Install Succeeded.
+
+-- Install Summary --
+Bus Driver
+
+
+
+SCP Driver Installer 1.2.0.160 [05-11-2018 18:21:33]
+
+Detected - Microsoft Windows 10 Home Single Language (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\System\Ds3WinUsb.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "USB\VID_054C&PID_0268&REV_0100" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\Ds3WinUsb.inf".
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+INFO    - Marked Phantom Device with Hardware/Compatible Id 'USB\VID_054C&PID_0268&REV_0100' for reinstall on next plug-in.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+
+Install Succeeded.
+
+-- Install Summary --
+Bus Driver
+DS3 USB Driver
+
+
+
+SCP Driver Installer 1.2.0.160 [05-11-2018 18:54:43]
+
+Detected - Microsoft Windows 10 Home Single Language (6.2.9200.0 AMD64)
+Selected DEFAULT configuration.
+
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\System\ScpVBus.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "root\ScpVBus" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\scpvbus.inf_amd64_21ca245c0e23d7a5\scpvbus.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - No matching devices found in INF "C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\System\BthWinUsb.inf" on the Machine.
+INFO    - RETURN: DriverPackageInstallW  (0xE000020B)
+INFO    - ENTER:  DriverPackageInstallW
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing INF file 'C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\System\Ds3WinUsb.inf' (Plug and Play).
+INFO    - Looking for Model Section [SCProductions.NTamd64]...
+INFO    - Installing devices with Id "USB\VID_054C&PID_0268&REV_0100" using INF "C:\WINDOWS\System32\DriverStore\FileRepository\ds3winusb.inf_amd64_15691982ca5c21ae\ds3winusb.inf".
+INFO    - Will force install because driver is not better and force flag is set.
+INFO    - ENTER UpdateDriverForPlugAndPlayDevices...
+SUCCESS - RETURN UpdateDriverForPlugAndPlayDevices.
+INFO    - Installation was successful.
+INFO    - Marked Phantom Device with Hardware/Compatible Id 'USB\VID_054C&PID_0268&REV_0100' for reinstall on next plug-in.
+SUCCESS - Install completed
+INFO    - RETURN: DriverPackageInstallW  (0x0)
+
+Install Succeeded.
+
+-- Install Summary --
+Bus Driver
+DS3 USB Driver
+
+
+

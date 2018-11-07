@@ -1,0 +1,78 @@
+﻿Instalando ensamblado 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+Creando el origen de EventLog Ds3Service en el registro Application...
+Desinstalando ensamblado 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog
+Quitando el origen de EventLog Ds3Service.
+Se está quitando el servicio Ds3Service del sistema...
+El servicio Ds3Service se ha quitado correctamente del sistema.
+Intento de detener el servicio Ds3Service.
+Instalando ensamblado 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+El servicio Ds3Service se ha instalado correctamente.
+Creando el origen de EventLog Ds3Service en el registro Application...
+Consulte el contenido del archivo de registro sobre el progreso del ensamblado C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe.
+El archivo está ubicado en C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog.
+Confirmando ensamblado 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   assemblypath = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog
+Instalando ensamblado 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+El servicio Ds3Service se ha instalado correctamente.
+Creando el origen de EventLog Ds3Service en el registro Application...
+Consulte el contenido del archivo de registro sobre el progreso del ensamblado C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe.
+El archivo está ubicado en C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog.
+Confirmando ensamblado 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   logtoconsole = 
+   assemblypath = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog
+Instalando ensamblado 'C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Pablo Rojas\Desktop\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+Creando el origen de EventLog Ds3Service en el registro Application...
+Instalando ensamblado 'C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+Creando el origen de EventLog Ds3Service en el registro Application...
+Instalando ensamblado 'C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+Creando el origen de EventLog Ds3Service en el registro Application...
+Instalando ensamblado 'C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Claudia\Desktop\progra2d\unidad 2\lab5\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+Creando el origen de EventLog Ds3Service en el registro Application...
+Instalando ensamblado 'C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+Creando el origen de EventLog Ds3Service en el registro Application...
+Instalando ensamblado 'C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\ScpService.exe'.
+Los parámetros afectados son:
+   assemblypath = C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\ScpService.exe
+   logfile = C:\Users\Claudia\Desktop\progra2d\unidad 2\proyecto2\ScpServer\bin\ScpService.InstallLog
+Instalando el servicio Ds3Service...
+Creando el origen de EventLog Ds3Service en el registro Application...
